@@ -5,9 +5,13 @@ body {
 	flex-direction: column;
 
 	header{
-		background-image: url("bgnew.jpg");
+		/*background-image: url("bgnew.jpg");*/
 		height: 588px;
-		width: 100%;
+		  background: url("bgnew.jpg") no-repeat center center fixed; 
+  			-webkit-background-size: cover;
+ 			 -moz-background-size: cover;
+ 			 -o-background-size: cover;
+ 			 background-size: cover;
 		}
 	nav{
 		background-color:#1d001c; 
@@ -23,8 +27,26 @@ body {
 		justify-content:  space-between;
 		width:100%;
 		padding:0 100px;
-			li{color:#00FF0F;
+			li{
+				color:#00FF0F;
 				list-style-type: none;
+				a:link{
+					color:#00FF0F;
+					text-decoration: none;
+				}
+				a:visited{
+					color:#00FF0F;
+					text-decoration: none;
+				}
+				a:hover{
+					color:#D20003;
+					text-decoration: none;
+				}
+				a:active{
+					color:#00FF0F;
+					text-decoration: none;
+				}
+				
 				
 			}
 			
@@ -62,7 +84,7 @@ body {
 	}
 	footer{
 		height: 588px;
-		width:1519.2;
+		
 		background-image:url("footer.jpg");
 		border: 2px solid #1d001c;
 	}

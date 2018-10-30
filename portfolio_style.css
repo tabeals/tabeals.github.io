@@ -4,9 +4,13 @@ body {
   display: flex;
   flex-direction: column; }
   body header {
-    background-image: url("bgnew.jpg");
+    /*background-image: url("bgnew.jpg");*/
     height: 588px;
-    width: 100%; }
+    background: url("bgnew.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
   body nav {
     background-color: #1d001c;
     display: flex;
@@ -24,6 +28,18 @@ body {
       body nav ul li {
         color: #00FF0F;
         list-style-type: none; }
+        body nav ul li a:link {
+          color: #00FF0F;
+          text-decoration: none; }
+        body nav ul li a:visited {
+          color: #00FF0F;
+          text-decoration: none; }
+        body nav ul li a:hover {
+          color: #D20003;
+          text-decoration: none; }
+        body nav ul li a:active {
+          color: #00FF0F;
+          text-decoration: none; }
   body resume {
     height: 588px;
     width: 1519.2;
@@ -51,6 +67,5 @@ body {
     border: 2px solid #1d001c; }
   body footer {
     height: 588px;
-    width: 1519.2;
     background-image: url("footer.jpg");
     border: 2px solid #1d001c; }
