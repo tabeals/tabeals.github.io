@@ -1,0 +1,56 @@
+/* Scss Document */
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column; }
+  body header {
+    background-image: url("bgnew.jpg");
+    height: 588px;
+    width: 100%; }
+  body nav {
+    background-color: #1d001c;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; }
+    body nav ul {
+      background-color: #1d001c;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      padding: 0 100px; }
+      body nav ul li {
+        color: #00FF0F;
+        list-style-type: none; }
+  body resume {
+    height: 588px;
+    width: 1519.2;
+    background-color: #F0F0F0;
+    border: 2px solid #1d001c; }
+  body about {
+    height: 588px;
+    width: 1519.2;
+    background-color: #ADADAD;
+    border: 2px solid #1d001c; }
+  body projects {
+    height: 588px;
+    width: 1519.2;
+    background-color: #ADADAD;
+    border: 2px solid #1d001c; }
+  body design {
+    height: 588px;
+    width: 1519.2;
+    background-color: #ADADAD;
+    border: 2px solid #1d001c; }
+  body contact {
+    height: 588px;
+    width: 1519.2;
+    background-color: #ADADAD;
+    border: 2px solid #1d001c; }
+  body footer {
+    height: 588px;
+    width: 1519.2;
+    background-image: url("footer.jpg");
+    border: 2px solid #1d001c; }
