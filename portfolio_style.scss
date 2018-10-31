@@ -1,16 +1,22 @@
 /* Scss Document */
+@supports (-ms-ime-align: auto) {
+  .header {
+       min-height:700px;
+  }
+}
 body {
 	margin:0;
 	display:flex;
 	flex-direction: column;
 
-	header{
+	#header{
 		/*background-image: url("bgnew.jpg");*/
-		height: 588px;
+		height:592px;
 		  background: url("bgnew.jpg") no-repeat center center fixed; 
   			-webkit-background-size: cover;
  			 -moz-background-size: cover;
  			 -o-background-size: cover;
+			-ms-background-size:cover;
  			 background-size: cover;
 		}
 	nav{
