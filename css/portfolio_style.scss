@@ -1,0 +1,288 @@
+/* Scss Document */
+
+
+
+
+
+body {
+	background-color:#1d001c; 
+	margin:0;
+	display:flex;
+	flex-direction: column;
+	color:cyan;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+
+	header{
+		/*background-image: url("bgnew.jpg");*/
+		min-height:588px;
+		
+		  background: url("../images/bgnew.jpg") no-repeat  ; 
+  			-webkit-background-size: cover;
+ 			 -moz-background-size: cover;
+ 			 -o-background-size: cover;
+			-ms-background-size:cover;
+ 			 background-size:contain;
+		}
+	nav{
+		padding:50px 0;
+		background-color:#1d001c; 
+		display: flex;
+		flex-direction:row;
+		align-items: center;
+		justify-content: center;
+		font-size: 1.5em;
+		ul{
+		background-color:#1d001c; 
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content:  space-between;
+		width:100%;
+		padding:0 100px;
+			li{
+				color:#00FF0F;
+				list-style-type: none;
+				a:link{
+					color:#00FF0F;
+					text-decoration: none;
+				}
+				a:visited{
+					color:#00FF0F;
+					text-decoration: none;
+				}
+				a:hover{
+					color:#D20003;
+					text-decoration: none;
+				}
+				a:active{
+					color:#00FF0F;
+					text-decoration: none;
+				}
+				
+				
+			}
+			
+		}
+	}
+	resume{
+		display:flex;
+		flex-direction: column;
+		height: 588px;
+		width:1519.2;
+		background-image:url("../images/resumebg.jpg") ;
+		background-size:auto;
+		background-position: center;
+		border: 10px solid #1d001c;
+		h1{
+			align-self: center;
+			margin: 100px 0 0 0;
+		}
+	}
+	about{
+		display:flex;
+		flex-direction: column;
+		height: 588px;
+		width:1519.2;
+		background-image:url("../images/aboutbg.jpg");
+		background-size:auto;
+		background-position: center;
+		border: 10px solid #1d001c;
+		h1{
+			align-self: center;
+			margin: 100px 0 0 0;
+		}
+	}
+	skills{
+		display: flex ;
+		flex-wrap: wrap;
+		flex-direction:column;
+		background-image:url("../images/skillsbg.jpg");
+		background-size:auto;
+		background-position: center;
+		border: 10px solid #1d001c;
+		align-items:flex-start;
+		justify-content: center;
+		align-content: flex-start;
+		h1{
+			align-self: center;
+			margin: 100px 0 0 0;
+		}
+			.frontend{
+				display:flex;
+				flex-direction: row;
+				flex-wrap:wrap;
+				align-items: center;
+				justify-content: flex-start;
+				li{
+					list-style-type: none;
+					margin: 0 20px;
+					}
+				li:first-child{
+					margin-right:179px;
+					color:cyan;
+					font-size: 2em;
+				}
+				}	
+				.version{
+				display:flex;
+				flex-wrap:wrap;
+				flex-direction: row;
+				align-items: center;
+				align-items: center;
+				li{
+					list-style-type: none;
+					margin: 0 0px 0 50px;
+					}
+					li:first-child{
+					margin-left:0;
+					margin-right:90px;
+					color:cyan;
+					font-size: 2em; 
+				}
+				}
+					.graphicdesign{
+				display:flex;
+				flex-direction: row;
+				align-items: center;
+				li{
+					list-style-type: none;
+					
+					}
+						li:first-child{
+					margin-right:130px;
+					color:cyan;
+					font-size: 2em; 
+				}
+				}
+		
+		}
+		
+	
+	projects{
+		display:flex;
+		flex-direction: column;
+		height: 588px;
+		width:1519.2;
+		background-image:url("../images/projectsbg.jpg");
+		background-size:auto;
+		background-position: center;
+		border: 10px solid #1d001c;
+		h1{
+			align-self: center;
+			margin: 100px 0 0 0;
+		}
+	}
+	github{
+		display:flex;
+		flex-direction: column;
+		height: 588px;
+		width:1519.2;
+		background-image:url("../images/githubbg.jpg");
+		background-size:auto;
+		background-position: center;
+		border: 10px solid #1d001c;
+		h1{
+			align-self: center;
+			margin: 100px 0 0 0;
+		}
+	}
+	design{
+		display:flex;
+		flex-direction: column;
+		height: 588px;
+		width:1519.2;
+		background-image:url("../images/designbg.jpg");
+		background-size:auto;
+		background-position: center;
+		border: 10px solid #1d001c;
+		h1{
+			align-self: center;
+			margin: 100px 0 0 0;
+		}
+	}
+	contact{
+		display:flex;
+		flex-direction: column;
+		height: 588px;
+		width:1519.2;
+		background-image:url("../images/contactbg.jpg");
+		background-size:auto;
+		background-position: center;
+		border: 10px solid #1d001c;
+		h1{
+			align-self: center;
+			margin: 100px 0 0 0;
+		}
+	}
+	footer{
+		display:flex;
+		flex-direction: column;
+		height: 588px;
+		
+		background-image: url("../images/footer.jpg");
+		background-size:cover;
+		border: 10px solid #1d001c;
+	}
+	
+}
+
+@supports (-ms-ime-align: auto) {
+  .header {
+       min-height:770px;
+	   background: url("../images/bgnew.jpg")  no-repeat ; 
+  			-webkit-background-size: cover;
+ 			 -moz-background-size: cover;
+ 			 -o-background-size: cover;
+			-ms-background-size:cover;
+ 			 background-size: 100%;
+	  }
+	.frontend{
+				
+				display:flex;
+				flex-direction: row;
+				align-items: center;
+				justify-content: flex-start;
+				li{
+					list-style-type: none;
+					margin: 0 50px;
+					}
+				li:first-child{
+					margin-left: 100px;
+					margin-right:179px;
+					color:cyan;
+					font-size: 2em;
+				}
+				}	
+				.version{
+				display:flex;
+				flex-direction: row;
+				align-items: center;
+				align-items: center;
+				li{
+					list-style-type:none;
+					margin: 0 50px;
+					}
+					li:first-child{
+					margin-left: 20px;
+					margin-right:140px;
+					color:cyan;
+					font-size: 2em; 
+				}
+				}
+					.graphicdesign{
+				display:flex;
+				flex-direction: row;
+				align-items: center;
+				li{
+					list-style-type: none;
+					margin: 0 50px;
+					}
+						li:first-child{
+					margin-left: 60px;
+					margin-right:140px;
+					color:cyan;
+					font-size: 2em; 
+				}
+				}
+		
+		}
