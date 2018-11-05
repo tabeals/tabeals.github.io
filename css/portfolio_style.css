@@ -1,0 +1,272 @@
+/* Scss Document */
+body {
+  background-color: #1d001c;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  color: cyan;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"; }
+  body header {
+    /*background-image: url("bgnew.jpg");*/
+    min-height: 588px;
+    background: url("../images/bgnew.jpg") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: contain; }
+  body nav {
+    padding: 50px 0;
+    background-color: #1d001c;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em; }
+    body nav ul {
+      background-color: #1d001c;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      padding: 0 100px; }
+      body nav ul li {
+        color: #00FF0F;
+        list-style-type: none; }
+        body nav ul li a:link {
+          color: #00FF0F;
+          text-decoration: none; }
+        body nav ul li a:visited {
+          color: #00FF0F;
+          text-decoration: none; }
+        body nav ul li a:hover {
+          color: #D20003;
+          text-decoration: none; }
+        body nav ul li a:active {
+          color: #00FF0F;
+          text-decoration: none; }
+  body resume {
+    display: flex;
+    flex-direction: column;
+    width: 1519.2;
+    background-image: url("../images/resumebg.jpg");
+    background-size: auto;
+    background-position: center;
+    border: 10px solid #1d001c; }
+    body resume h1 {
+      align-self: center;
+      margin: 100px 0 0 0; }
+    body resume .pdf {
+      align-self: center;
+      margin: 50px 0 150px 0; }
+  body about {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../images/aboutbg.jpg");
+    background-size: auto;
+    background-position: center;
+    border: 10px solid #1d001c; }
+    body about h1 {
+      align-self: center;
+      margin: 100px 0 0 0; }
+    body about p {
+      width: 1000px;
+      align-self: center;
+      text-align: left;
+      font-size: 1.5em;
+      margin-bottom: 100px; }
+  body skills {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    background-image: url("../images/skillsbg.jpg");
+    background-size: auto;
+    background-position: center;
+    border: 10px solid #1d001c;
+    align-items: center;
+    justify-content: center;
+    align-content: center; }
+    body skills h1 {
+      align-self: center;
+      margin: 50px 0 0 50px; }
+    body skills .frontend {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start; }
+      body skills .frontend li {
+        list-style-type: none;
+        margin: 0 20px; }
+      body skills .frontend li:first-child {
+        margin-right: 0px;
+        color: cyan;
+        font-size: 2em; }
+    body skills .version {
+      margin-right: 330px;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      align-items: center;
+      align-items: center; }
+      body skills .version li {
+        list-style-type: none;
+        margin: 0  20px; }
+      body skills .version li:first-child {
+        margin-left: 0px;
+        margin-right: 0px;
+        color: cyan;
+        font-size: 2em; }
+    body skills .graphicdesign {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-right: 480px; }
+      body skills .graphicdesign li {
+        list-style-type: none;
+        margin: 0 20px; }
+      body skills .graphicdesign li:first-child {
+        margin-right: 0px;
+        color: cyan;
+        font-size: 2em; }
+  body projects {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../images/projectsbg.jpg");
+    background-size: auto;
+    background-position: center;
+    border: 10px solid #1d001c;
+    align-items: center; }
+    body projects h1 {
+      align-self: center;
+      margin: 100px 0 100px 0; }
+    body projects .sites {
+      font-size: 1.3em;
+      display: flex;
+      flex-direction: row;
+      margin: 50px;
+      align-self: center; }
+      body projects .sites a:hover {
+        background-color: cyan; }
+      body projects .sites .tomslawn {
+        margin: 0 50px; }
+        body projects .sites .tomslawn p {
+          margin-top: 50px;
+          width: 600px;
+          background-color: #1d001c; }
+      body projects .sites .traveltime {
+        margin: 0 50px; }
+        body projects .sites .traveltime p {
+          margin-top: 50px;
+          width: 600px;
+          background-color: #1d001c; }
+  body github {
+    display: flex;
+    flex-direction: column;
+    height: 588px;
+    width: 1519.2;
+    background-image: url("../images/githubbg.jpg");
+    background-size: auto;
+    background-position: center;
+    border: 10px solid #1d001c; }
+    body github h1 {
+      align-self: center;
+      margin: 100px 0 0 0; }
+    body github h3 {
+      align-self: center; }
+    body github a {
+      align-self: center; }
+    body github figcaption {
+      align-self: center; }
+  body design {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../images/designbg.jpg");
+    background-size: auto;
+    background-position: center;
+    border: 10px solid #1d001c; }
+    body design h1 {
+      align-self: center;
+      margin: 100px 0 50px 0; }
+  body contact {
+    display: flex;
+    flex-direction: column;
+    height: 588px;
+    width: 1519.2;
+    background-image: url("../images/contactbg.jpg");
+    background-size: auto;
+    background-position: center;
+    border: 10px solid #1d001c; }
+    body contact a:link {
+      color: cyan;
+      text-decoration: none; }
+    body contact a:hover {
+      background-color: #1d001c; }
+    body contact h1 {
+      align-self: center;
+      margin: 100px 0 0 0; }
+    body contact .contact {
+      margin-top: 100px; }
+    body contact p {
+      text-align: center;
+      font-size: 1.3em; }
+  body footer {
+    display: flex;
+    flex-direction: column;
+    height: 588px;
+    background-image: url("../images/footer.jpg");
+    background-size: cover;
+    border: 10px solid #1d001c; }
+
+@supports (-ms-ime-align: auto) {
+  .header {
+    min-height: 770px;
+    background: url("../images/bgnew.jpg") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: 100%; }
+
+  .frontend {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start; }
+    .frontend li {
+      list-style-type: none;
+      margin: 0 50px; }
+    .frontend li:first-child {
+      margin-left: 100px;
+      margin-right: 179px;
+      color: cyan;
+      font-size: 2em; }
+
+  .version {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-items: center; }
+    .version li {
+      list-style-type: none;
+      margin: 0 50px; }
+    .version li:first-child {
+      margin-left: 20px;
+      margin-right: 140px;
+      color: cyan;
+      font-size: 2em; }
+
+  .graphicdesign {
+    display: flex;
+    flex-direction: row;
+    align-items: center; }
+    .graphicdesign li {
+      list-style-type: none;
+      margin: 0 50px; }
+    .graphicdesign li:first-child {
+      margin-left: 60px;
+      margin-right: 140px;
+      color: cyan;
+      font-size: 2em; } }

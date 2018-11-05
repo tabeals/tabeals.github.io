@@ -1,0 +1,272 @@
+/* CSS Document */
+
+
+/*VARIABLES_________________________________________________________________________*/
+
+$yellow: #fcff28;
+$purple: #6b0080;
+$l_green: #00f40d;
+$m_green: #00b42d;
+$d_green: #006a1d;
+$d_grey: #4b4b4b;
+$l_grey: #e0e0e0;
+$white: #ffffff;
+
+/* MIXINS__________________________________________________________________________*/
+
+/*fonts______*/
+
+@mixin bannerFont {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+}
+
+@mixin navFont {
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+/*display_______*/
+
+@mixin flexStandard {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	
+}
+@mixin flexStandardColumn {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+@mixin flexStart {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	
+}
+
+/*STYLE______________________________________________________________________________________*/
+
+/*the body of the docment is 1516px x 455.38px*/
+body{
+	margin:0;
+	@include flexStandardColumn;
+	background-color: $d_grey;
+}
+/* banner _______________________________*/
+.s_header {
+	@include flexStandard;
+	background-color:$d_grey;
+	width:1500px;
+	}
+
+/*navigation___________________________________________*/
+.nav { 
+	background-color: $d-grey;
+	ul {
+		margin:0;
+	@include flexStandard;
+		li {
+			color:$yellow;
+			list-style-type: none;
+			padding: 5px 80px;
+			@include navFont;
+			font-size: 2em;
+		
+			 
+}
+}
+}
+/*navigaiton link styles*/
+a:link{
+color: $yellow;
+text-decoration: none;
+}
+
+a:visited{
+	color: $yellow;
+	text-decoration: none;
+}
+a:hover{
+	color: $l_green;
+}
+a:active{
+	color: $l_green;
+}
+
+
+
+/*main sectino of the page________________________*/
+.s_main {
+	
+	@include flexStandardColumn;
+	margin:0;
+	width: 1500px;
+	@include bannerFont;
+	h1{
+		marign-bottom: 5px;
+		padding-bottom: 5px;
+		color: $d_grey;
+	}
+
+
+
+.landscape, .hardscape, .pest{
+		background-color: $white;
+		display: flex;
+		align-items: center;
+		align-self: center;
+		margin: 25px 50px;
+		@include bannerFont;
+		font-size: 2em;
+		color: $d_grey;
+		border-radius: 10px;
+		padding: 25px 300px 25px 300px;
+	.lh2, .hh2, .ph2, img {
+		margin: 0 20px;
+		align-self: center;
+	}
+	
+}
+}
+
+
+
+.s_main{
+	background-color: $l_grey;
+}
+
+
+/*main page link styles*/
+.landscape a:link{
+color: $d_grey;
+text-decoration: none;
+}
+
+.landscape a:visited{
+	color: $d_grey;
+	text-decoration: none;
+}
+.landscape a:hover{
+	color: $l_green;
+}
+.landscape a:active{
+	color: $l_green;
+}
+.hardscape a:link{
+color: $d_grey;
+text-decoration: none;
+}
+
+.hardscape a:visited{
+	color: $d_grey;
+	text-decoration: none;
+}
+.hardscape a:hover{
+	color: $l_green;
+}
+.hardscape a:active{
+	color: $l_green;
+}
+.pest a:link{
+color: $d_grey;
+text-decoration: none;
+}
+
+.pest a:visited{
+	color: $d_grey;
+	text-decoration: none;
+}
+.pest a:hover{
+	color: $l_green;
+}
+.pest a:active{
+	color: $l_green;
+}
+/*footer___________________________________________________*/
+.s_footer {
+	margin-top: 50px; 
+	@include flexStandard;
+	width:1500px;
+	height: 100px;
+	background-color: $m_green;
+	@include navFont;
+	font-size: 2em;
+	color: $yellow;
+}
+
+
+
+
+
+
+
+
+/*PRICE PAGE__________________________________*/
+/* all stylin gofr the table on the price page*/
+.table{
+	border: black 2px solid;
+	width: 300px;
+	@include flexStandard;
+	margin: 20px 5px;
+	background-color: $white;
+		}
+.basictable >li, .protable >li, .elitetable >li {
+	list-style-type: none;
+}
+ .title {
+	color: $l_green;
+	font-size: 1.3em;
+}
+
+
+.pricetable {
+	@include bannerFont;
+		background-color: $l_grey;
+		margin:10px;
+		align-self: center;
+		display:flex;
+		flex-direction: column;
+	h2{
+		align-self: center;
+	}
+		}
+.landtable, .hardtable, .pesttable {
+	@include flexStandard;
+	
+	
+	
+}
+.contact {
+		background-color: $white;
+		display: flex;
+		flex-direction:column;
+		justify-content: center;
+		align-items: center;
+		margin: 25px 50px;
+		@include bannerFont;
+		font-size: 2em;
+		color: $d_grey;
+		border-radius: 10px;
+	p {
+		text-align: center;
+		
+		
+	}
+}
+.contact a:link {
+	color:$l_green;
+}
+.contact a:hover {
+	background-color:$yellow;
+}
+.contact img {
+	padding-bottom: 25px;
+}
+
+
+

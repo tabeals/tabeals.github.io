@@ -1,0 +1,240 @@
+/* CSS Document */
+/*VARIABLES_________________________________________________________________________*/
+/* MIXINS__________________________________________________________________________*/
+/*fonts______*/
+/*display_______*/
+/*STYLE______________________________________________________________________________________*/
+/*the body of the docment is 1516px x 455.38px*/
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #4b4b4b;
+}
+
+/* banner _______________________________*/
+.s_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #4b4b4b;
+  width: 1500px;
+}
+
+/*navigation___________________________________________*/
+.nav {
+  background-color: #4b4b4b;
+}
+.nav ul {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.nav ul li {
+  color: #fcff28;
+  list-style-type: none;
+  padding: 5px 80px;
+  font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+  font-size: 2em;
+}
+
+/*navigaiton link styles*/
+a:link {
+  color: #fcff28;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #fcff28;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00f40d;
+}
+
+a:active {
+  color: #00f40d;
+}
+
+/*main sectino of the page________________________*/
+.s_main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  width: 1500px;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+.s_main h1 {
+  marign-bottom: 5px;
+  padding-bottom: 5px;
+  color: #4b4b4b;
+}
+.s_main .landscape, .s_main .hardscape, .s_main .pest {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  margin: 25px 50px;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  font-size: 2em;
+  color: #4b4b4b;
+  border-radius: 10px;
+  padding: 25px 300px 25px 300px;
+}
+.s_main .landscape .lh2, .s_main .landscape .hh2, .s_main .landscape .ph2, .s_main .landscape img, .s_main .hardscape .lh2, .s_main .hardscape .hh2, .s_main .hardscape .ph2, .s_main .hardscape img, .s_main .pest .lh2, .s_main .pest .hh2, .s_main .pest .ph2, .s_main .pest img {
+  margin: 0 20px;
+  align-self: center;
+}
+
+.s_main {
+  background-color: #e0e0e0;
+}
+
+/*main page link styles*/
+.landscape a:link {
+  color: #4b4b4b;
+  text-decoration: none;
+}
+
+.landscape a:visited {
+  color: #4b4b4b;
+  text-decoration: none;
+}
+
+.landscape a:hover {
+  color: #00f40d;
+}
+
+.landscape a:active {
+  color: #00f40d;
+}
+
+.hardscape a:link {
+  color: #4b4b4b;
+  text-decoration: none;
+}
+
+.hardscape a:visited {
+  color: #4b4b4b;
+  text-decoration: none;
+}
+
+.hardscape a:hover {
+  color: #00f40d;
+}
+
+.hardscape a:active {
+  color: #00f40d;
+}
+
+.pest a:link {
+  color: #4b4b4b;
+  text-decoration: none;
+}
+
+.pest a:visited {
+  color: #4b4b4b;
+  text-decoration: none;
+}
+
+.pest a:hover {
+  color: #00f40d;
+}
+
+.pest a:active {
+  color: #00f40d;
+}
+
+/*footer___________________________________________________*/
+.s_footer {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 1500px;
+  height: 100px;
+  background-color: #00b42d;
+  font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+  font-size: 2em;
+  color: #fcff28;
+}
+
+/*PRICE PAGE__________________________________*/
+/* all stylin gofr the table on the price page*/
+.table {
+  border: black 2px solid;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 5px;
+  background-color: #ffffff;
+}
+
+.basictable > li, .protable > li, .elitetable > li {
+  list-style-type: none;
+}
+
+.title {
+  color: #00f40d;
+  font-size: 1.3em;
+}
+
+.pricetable {
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  background-color: #e0e0e0;
+  margin: 10px;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}
+.pricetable h2 {
+  align-self: center;
+}
+
+.landtable, .hardtable, .pesttable {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 50px;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  font-size: 2em;
+  color: #4b4b4b;
+  border-radius: 10px;
+}
+.contact p {
+  text-align: center;
+}
+
+.contact a:link {
+  color: #00f40d;
+}
+
+.contact a:hover {
+  background-color: #fcff28;
+}
+
+.contact img {
+  padding-bottom: 25px;
+}
+
+/*# sourceMappingURL=lawn_service.css.map */
